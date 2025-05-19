@@ -67,7 +67,7 @@ Our project predicts whether a person is prone to having a stroke using machine 
     * No strong positive or negative correlations were observed between the numerical features and the target.  
     * Most features have very low correlation with each other and also with “stroke”(target).
 
-![][image2]
+![Correlation Matrix.](Assets/Images/Correlation%20Matrix.png)
 
 Figure 1: Heat map for correlation matrix
 
