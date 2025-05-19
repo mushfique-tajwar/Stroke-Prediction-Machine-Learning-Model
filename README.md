@@ -9,9 +9,9 @@
 - 22301130 Aryan Rayeen Rahman
 
 ### **Table of Contents**
-- **[Introduction](#introduction-introduction)**
+- **[Introduction](#introduction)**
 - **[Dataset Description](#dataset-description)**
-- 
+  
 [&ensp; &ensp; &ensp; &ensp; Dataset Analysis](#dataset-analysis:)
 [&ensp; &ensp; &ensp; &ensp; Imbalanced Dataset](#imbalanced-dataset:)
 [&ensp; &ensp; &ensp; &ensp; Other Exploratory data analysis](#other-exploratory-data-analysis:)
@@ -28,11 +28,11 @@
 - **[Links](#links)**
 
 
-# **Introduction** {#introduction}
+# **Introduction**
 
 Our project predicts whether a person is prone to having a stroke using machine learning models. We train these models by utilizing a dataset consisting of 5,110 entries containing the features ID, gender, age, hypertension, heart disease, marital status, work type, residence type, average glucose level, BMI and smoking status. We retrieve and analyze all the necessary data from the given dataset and preprocess the data wherever we see some scopes of improvement and modifications for the dataset then train some machine learning models on the modified dataset and then showcase their prediction accuracy and come to a conclusion.
 
-# **Dataset Description** {#}
+# **Dataset Description**
 
 * ## **Dataset Analysis:** {#dataset-analysis:}
 
