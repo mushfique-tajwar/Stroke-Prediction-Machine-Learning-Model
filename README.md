@@ -100,6 +100,8 @@ Just like the density plot, this histogram figure also shows which of the entrie
 
 ![Boxplot](Assets/Images/Boxplot.png)
 
+Figure 6: Boxplot of numerical features.
+
 From the above box plot we can see that there are a lot of outliers in the features average glucose level and BMI.
 
 # **Dataset Pre-Processing:**
@@ -131,7 +133,8 @@ We applied Logistic Regression, Random Forest and Neural Networks models using t
 |           Random Forest Accuracy \- | 94.92% |
 | Neural Network Accuracy \- | 95.11% |
 
-![Prediction Accuracy](Assets/Images/Prediction%20Accuracy.png) 
+![Prediction Accuracy](Assets/Images/Prediction%20Accuracy.png)
+
 Figure 7 : Barchart comparing the prediction accuracy of the models used.
 
 * ## **Precision, recall comparison of each model**
