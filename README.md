@@ -12,13 +12,13 @@
 - **[Introduction](#introduction)**
 - **[Dataset Description](#dataset-description)**
   
-[&ensp; &ensp; &ensp; &ensp; Dataset Analysis](#dataset-analysis:)
+[&ensp; &ensp; &ensp; &ensp; Dataset Analysis](#dataset-analysis)
 [&ensp; &ensp; &ensp; &ensp; Imbalanced Dataset](#imbalanced-dataset:)
 [&ensp; &ensp; &ensp; &ensp; Other Exploratory data analysis](#other-exploratory-data-analysis:)
 
-- **[Dataset Pre-Processing](#dataset-pre-processing:)**
-- **[Dataset Splitting](#dataset-splitting:)**
-- **[Model Training and Testing](#model-training-and-testing:)**
+- **[Dataset Pre-Processing](#dataset-pre-processing)**
+- **[Dataset Splitting](#dataset-splitting)**
+- **[Model Training and Testing](#model-training-and-testing)**
 - **[Model selection/comparison analysis](#model-selection/comparison-analysis:)**
   
 [&ensp; &ensp; &ensp; &ensp; Bar chart showcasing the prediction accuracies of all models](#bar-chart-showcasing-the-prediction-accuracies-of-all-models-:)
@@ -36,7 +36,7 @@ Our project predicts whether a person is prone to having a stroke using machine 
 
 # **Dataset Description**
 
-* ## **Dataset Analysis:** {#dataset-analysis:}
+* ## **Dataset Analysis**
 
     
   * **Features:** There are 12 features in our dataset, including the target stroke.   
@@ -92,7 +92,7 @@ Just like the density plot, this histogram figure also shows which of the entrie
 
 From the above box plot we can see that there are a lot of outliers in the features average glucose level and BMI.
 
-# **Dataset Pre-Processing:** {#dataset-pre-processing:}
+# **Dataset Pre-Processing:**
 
 * **Null/Missing values:** There are only null values in the “bmi” column. So, we impute those values with the strategy \= “median” of that column.  
     
@@ -100,7 +100,7 @@ From the above box plot we can see that there are a lot of outliers in the featu
     
 * **Feature Scaling:** As there are a lot of outliers (from box plot) and bias (from data density plot/histogram), scaling is done using Robust Scaler.
 
-# **Dataset Splitting:** {#dataset-splitting:}
+# **Dataset Splitting**
 
 ● Train set (70%)
 
@@ -108,11 +108,11 @@ From the above box plot we can see that there are a lot of outliers in the featu
 
 ● Random \= 5 state ensures reproducibility so that we get the same split every time we run our models. Stratified is also used as there is imbalance in the dataset. 
 
-# **Model Training and Testing:** {#model-training-and-testing:}
+# **Model Training and Testing**
 
 We applied Logistic Regression, Random Forest and Neural Networks models using the Sci-kit learn library to train our model.
 
-# **Model selection/comparison analysis:** {#model-selection/comparison-analysis:}
+# **Model selection/comparison analysis**
 
 * ## **Bar chart showcasing the prediction accuracies of all models :** {#bar-chart-showcasing-the-prediction-accuracies-of-all-models-:}
 
@@ -157,11 +157,11 @@ Figure 12 : AUC scores and ROC curves for the models implemented.
 
 From this figure we can see that Logistic Regression is the top performer based on ROC curve and AUC, closely followed by Random Forest and at the last place we have Neural Network.
 
-# **Conclusion** {#conclusion}
+# **Conclusion**
 
 From our evaluation, we observed that the Random Forest model was the best performer throughout most the tests and second best in ROC curve and AUC score and the Neural Network had the same accuracy but its AUC score was lowest and its ROC curve was also the worst but it has the same precision, recall and F1-score with Random Forest. And lastly, even though Logistic Regression has the highest AUC score and the best ROC curve, its accuracy, precision, recall and F1-score was the worst among all the models. Neural Network is a complex model, our dataset might be insufficient for it but it still gives a good accuracy and AUC. The dataset had to be carefully pre-processed as there were null values which were imputed using median, categorical values encoded to numeric and some irrelevant columns which were dropped. There is imbalance in the dataset as the number of people prone to stroke are highly skewed. So a resampling of data might give a better performance in the models. Nonetheless, our study highlights the potential of predicting stroke in order to prevent such from happening to people.
 
-# **Links** {#links}
+# **Links**
 
 [Colab Notebook](https://drive.google.com/file/d/1PHiGy6yTwqdKpwGxRoXKXDJLaK9EKXLG/view?usp=sharing) \- 
 
