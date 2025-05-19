@@ -1,6 +1,8 @@
-# **BRAC University**
-## **Artificial Intelligence**  
-**CSE422 \- Section 4**
+# **Stroke Prediction Machine Learning Model**
+### **BRAC University - Artificial Intelligence**  
+
+**CSE422 Section 4**
+
 **Spring 2025**  
 **Lab Project Report**
 
