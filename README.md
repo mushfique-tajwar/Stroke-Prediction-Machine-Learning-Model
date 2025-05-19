@@ -9,25 +9,24 @@
 - 22301130 Aryan Rayeen Rahman
 
 ### **Table of Contents**
-- **[Introduction](#introduction)**
-- **[Dataset Description](#dataset-description)**
-  
-[&ensp; &ensp; &ensp; &ensp; Dataset Analysis](#dataset-analysis)
-[&ensp; &ensp; &ensp; &ensp; Imbalanced Dataset](#imbalanced-dataset:)
-[&ensp; &ensp; &ensp; &ensp; Other Exploratory data analysis](#other-exploratory-data-analysis:)
+**[1. Introduction](#introduction)**
+**[2. Dataset Description](#dataset-description)**
+- [Dataset Analysis](#dataset-analysis)
+- [Imbalanced Dataset](#imbalanced-dataset:)
+-  [Other Exploratory data analysis](#other-exploratory-data-analysis:)
 
-- **[Dataset Pre-Processing](#dataset-pre-processing)**
-- **[Dataset Splitting](#dataset-splitting)**
-- **[Model Training and Testing](#model-training-and-testing)**
-- **[Model selection/comparison analysis](#model-selection/comparison-analysis:)**
+**[3. Dataset Pre-Processing](#dataset-pre-processing)**
+**[4. Dataset Splitting](#dataset-splitting)**
+**[5. Model Training and Testing](#model-training-and-testing)**
+**[6. Model selection/comparison analysis](#model-selection/comparison-analysis:)**
   
-[&ensp; &ensp; &ensp; &ensp; Bar chart showcasing the prediction accuracies of all models](#bar-chart-showcasing-the-prediction-accuracies-of-all-models-:)
-[&ensp; &ensp; &ensp; &ensp; Precision, recall comparison of each model](#precision,-recall-comparison-of-each-model-:)
-[&ensp; &ensp; &ensp; &ensp; Confusion Matrix](#confusion-matrix-:)
-[&ensp; &ensp; &ensp; &ensp; AUC score, ROC curve](#auc-score,-roc-curve-:)
+- [Bar chart showcasing the prediction accuracies of all models](#bar-chart-showcasing-the-prediction-accuracies-of-all-models-:)
+- [Precision, recall comparison of each model](#precision,-recall-comparison-of-each-model-:)
+- [Confusion Matrix](#confusion-matrix-:)
+- [AUC score, ROC curve](#auc-score,-roc-curve-:)
 
-- **[Conclusion](#conclusion)**
-- **[Links](#links)**
+**[7. Conclusion](#conclusion)**
+**[8. Links](#links)**
 
 
 # **Introduction**
