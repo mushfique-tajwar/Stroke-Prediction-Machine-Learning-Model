@@ -10,22 +10,34 @@
 
 ### **Table of Contents**
 **[1. Introduction](#introduction)**
+
 **[2. Dataset Description](#dataset-description)**
+
 - [Dataset Analysis](#dataset-analysis)
-- [Imbalanced Dataset](#imbalanced-dataset:)
--  [Other Exploratory data analysis](#other-exploratory-data-analysis:)
+  
+- [Imbalanced Dataset](#imbalanced-dataset)
+  
+-  [Other Exploratory data analysis](#other-exploratory-data-analysis)
 
 **[3. Dataset Pre-Processing](#dataset-pre-processing)**
+
 **[4. Dataset Splitting](#dataset-splitting)**
+
 **[5. Model Training and Testing](#model-training-and-testing)**
+
 **[6. Model selection/comparison analysis](#model-selection/comparison-analysis:)**
   
-- [Bar chart showcasing the prediction accuracies of all models](#bar-chart-showcasing-the-prediction-accuracies-of-all-models-:)
-- [Precision, recall comparison of each model](#precision,-recall-comparison-of-each-model-:)
-- [Confusion Matrix](#confusion-matrix-:)
-- [AUC score, ROC curve](#auc-score,-roc-curve-:)
+- [Bar chart showcasing the prediction accuracies of all models](#bar-chart-showcasing-the-prediction-accuracies-of-all-models)
+  
+- [Precision, recall comparison of each model](#precision,-recall-comparison-of-each-model)
+  
+- [Confusion Matrix](#confusion-matrix)
+  
+- [AUC score, ROC curve](#auc-score,-roc-curve)
+  
 
 **[7. Conclusion](#conclusion)**
+
 **[8. Links](#links)**
 
 
@@ -63,7 +75,7 @@ Figure 1: Heat map for correlation matrix
 
 We can infer from the 2 heat maps that there are no negative values and none of the features are correlated and it is possible to get a good predictive performance from this dataset. 
 
-* ## **Imbalanced Dataset:** {#imbalanced-dataset:}
+* ## **Imbalanced Dataset**
 
 
 **![][image4]**
@@ -72,7 +84,7 @@ Figure 3: Density plot of Numerical features.
 
 From the bar chart we can see an imbalance in the target i.e. Stroke.
 
-* ## **Other Exploratory data analysis:** {#other-exploratory-data-analysis:}
+* ## **Other Exploratory data analysis**
 
 
 **![][image5]**
@@ -113,7 +125,7 @@ We applied Logistic Regression, Random Forest and Neural Networks models using t
 
 # **Model selection/comparison analysis**
 
-* ## **Bar chart showcasing the prediction accuracies of all models :** {#bar-chart-showcasing-the-prediction-accuracies-of-all-models-:}
+* ## **Bar chart showcasing the prediction accuracies of all models**
 
 |     Logistic Regression Accuracy \- | 73.97% |
 | ----: | :---- |
@@ -123,13 +135,13 @@ We applied Logistic Regression, Random Forest and Neural Networks models using t
 **![][image8]**  
 Figure 7 : Barchart comparing the prediction accuracy of the models used.
 
-* ## **Precision, recall comparison of each model :**  {#precision,-recall-comparison-of-each-model-:}
+* ## **Precision, recall comparison of each model**
 
 **![][image9]**
 
 Figure 8 : Precision, Recall and F1-Score of the models used.
 
-* ## **Confusion Matrix :**  {#confusion-matrix-:}
+* ## **Confusion Matrix**
 
 
 **![][image10]**
@@ -148,7 +160,7 @@ Figure 11 : Confusion matrix of Neural Network
 
 From this confusion matrix of the Neural Network we get that the model detected 1458 True Negatives (TN), 0 False Positives (FP), 75 False Negatives (FN) and 0 True Positives (TP).
 
-* ## **AUC score, ROC curve :**  {#auc-score,-roc-curve-:}
+* ## **AUC score, ROC curve**
 
 **![][image13]**
 
